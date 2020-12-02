@@ -1,0 +1,4 @@
+# Windows Server 2019 - upgrade Evaluation to Retail
+
+powershell.exe $
+DISM /online /Set-Edition:ServerDatacenter /ProductKey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /AcceptEula
