@@ -1,6 +1,0 @@
-# Windows Server 2016 - eval to datacenter
-DISM /online /Set-Edition:ServerDatacenter /ProductKey:CB7KF-BWN84-R7R2Y-793K2-8XDDG /AcceptEula
-
-
-# Windows Server 2019 - upgrade Evaluation to Retail
-DISM /online /Set-Edition:ServerDatacenter /ProductKey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /AcceptEula

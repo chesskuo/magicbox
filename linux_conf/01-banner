@@ -1,0 +1,24 @@
+#!/bin/sh
+#    ...................................................
+#    :'######::'##::::'##:'########::'######:::'######::
+#    '##... ##: ##:::: ##: ##.....::'##... ##:'##... ##:
+#    '##:::..:: ##:::: ##: ##::::::: ##:::..:: ##:::..::
+#    '##::::::: #########: ######:::. ######::. ######::
+#    '##::::::: ##.... ##: ##...:::::..... ##::..... ##:
+#    :##::: ##: ##:::: ##: ##:::::::'##::: ##:'##::: ##:
+#    : ######:: ##:::: ##: ########:. ######::. ######::
+#    :......:::..:::::..::........:::......::::......:::
+
+reset='\e[m'
+green='\e[32;5m'
+
+printf "\n${reset}\
+    :'${green}######${reset}::'${green}##${reset}::::'${green}##${reset}:'${green}########${reset}::'${green}######${reset}:::'${green}######${reset}::\n\
+    '${green}##${reset}... ${green}##${reset}: ${green}##${reset}:::: ${green}##${reset}: ${green}##${reset}.....::'${green}##${reset}... ${green}##${reset}:'${green}##${reset}... ${green}##${reset}:\n\
+    '${green}##${reset}:::..:: ${green}##${reset}:::: ${green}##${reset}: ${green}##${reset}::::::: ${green}##${reset}:::..:: ${green}##${reset}:::..::\n\
+    '${green}##${reset}::::::: ${green}#########${reset}: ${green}######${reset}:::. ${green}######${reset}::. ${green}######${reset}::\n\
+    '${green}##${reset}::::::: ${green}##${reset}.... ${green}##${reset}: ${green}##${reset}...:::::..... ${green}##${reset}::..... ${green}##${reset}:\n\
+    :${green}##${reset}::: ${green}##${reset}: ${green}##${reset}:::: ${green}##${reset}: ${green}##${reset}:::::::'${green}##${reset}::: ${green}##${reset}:'${green}##${reset}::: ${green}##${reset}:\n\
+    : ${green}######${reset}:: ${green}##${reset}:::: ${green}##${reset}: ${green}########${reset}:. ${green}######${reset}::. ${green}######${reset}::\n\
+    :......:::..:::::..::........:::......::::......:::\n\
+${reset}"
