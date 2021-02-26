@@ -174,7 +174,7 @@ servers = (
     chatnet = "Freenode";
     port = "6697";
     use_tls = "yes";
-    tls_verify = "no";
+    tls_verify = "yes";
     family = "inet6";
     autoconnect = "yes";
   }
