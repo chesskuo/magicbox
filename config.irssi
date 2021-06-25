@@ -162,16 +162,16 @@ settings = {
 };
 
 chatnets = {
-  Freenode = {
+  "Libera.Chat" = {
     type = "IRC";
-    autosendcmd = "/^msg nickserv identify ???; wait 200";
+    autosendcmd = "/^msg nickserv identify <PASSWORD>; wait 200";
   };
 };
 
 servers = (
   {
-    address = "chat.freenode.net";
-    chatnet = "Freenode";
+    address = "irc.libera.chat";
+    chatnet = "Libera.Chat";
     port = "6697";
     use_tls = "yes";
     tls_verify = "yes";
@@ -181,5 +181,5 @@ servers = (
 );
 
 channels = (
-  { name = "#nisra"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "#nisra"; chatnet = "Libera.Chat"; autojoin = "yes"; }
 );
