@@ -5,5 +5,6 @@ set softtabstop=-1
 set shiftwidth=4
 set expandtab
 set cursorline
+set cursorcolumn
 set ruler
 set confirm
