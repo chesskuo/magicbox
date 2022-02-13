@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.fontSize": 16,
+    "editor.cursorStyle": "block",
+    "editor.renderLineHighlight": "all"
+}
